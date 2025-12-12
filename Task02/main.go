@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+// 回文数
 func isPalindrome(n int) bool {
 	// 将数字转成字符串
 	nStr := strconv.Itoa(n)

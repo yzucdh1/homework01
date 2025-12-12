@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 只出现一次的数字
 func SingleNumber(nums []int) int {
 	countMap := make(map[int]int)
 	for i := range nums {
